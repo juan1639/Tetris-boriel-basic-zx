@@ -4,9 +4,9 @@ Clon del clásico **Tetris** para el **ZX Spectrum 48K**, programado en **Boriel
 
 <br>
 
-<img src="screenshots/record-tetris-present.png"/>
-<img src="screenshots/record-tetris-zx-boriel.png"/>
-<img src="screenshots/record-tetris-1.png"/>
+<img src="screenshots/record-tetris-present.png" width="640"/>
+<img src="screenshots/record-tetris-zx-boriel.png" width="640"/>
+<img src="screenshots/record-tetris-1.png" width="640"/>
 
 ## El juego
 
@@ -53,7 +53,7 @@ Melodía de Tetris al empezar, efectos al mover, girar y hacer líneas, y músic
 
 ## Código dividido en módulos
 
-La carpeta `modulos/` contiene el mismo código que `tetrisyt-fix.bas`, repartido en varios archivos para que sea más fácil de leer y modificar. El programa principal, `tetris.bas`, une el resto con `#include`.
+- El programa principal, `tetris.bas`, une el resto con `#include`.
 
 | Módulo          | Qué hace |
 |-----------------|----------|
